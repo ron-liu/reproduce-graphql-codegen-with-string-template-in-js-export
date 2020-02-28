@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.12.2",
+    "@graphql-codegen/typescript": "^1.12.2",
+    "@graphql-codegen/typescript-resolvers": "^1.12.2"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.10.3"
+  },
+  "scripts": {
+    "graphql:codegen": "graphql-codegen --config codegen.yml"
+  }
+}
